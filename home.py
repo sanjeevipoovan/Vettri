@@ -35,7 +35,7 @@ def extract_text_from_pdf(pdf_path):
         print(complete_text)
         
         # Optional: Save the extracted text to a .txt file
-        output_txt_path = "extracted_output.txt"
+        output_txt_path = "extracted1_output.txt"
         with open(output_txt_path, "w", encoding="utf-8") as text_file:
             text_file.write(complete_text)
         print(f"\n[Success] Extracted text has also been saved to '{output_txt_path}'.")
@@ -45,6 +45,6 @@ def extract_text_from_pdf(pdf_path):
 
 if __name__ == "__main__":
     # Replace with the path to your PDF file
-    pdf_file_path = "sanju resume.pdf"
+    pdf_file_path = r"E:\Sanjeevi_kumar.pdf"
     
     extract_text_from_pdf(pdf_file_path)
