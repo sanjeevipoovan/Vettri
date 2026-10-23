@@ -1,0 +1,53 @@
+--- Page 1 ---
+SANJEEVI KUMAR P
+♂¶ap-¶arker-altSalem, Tamil Nadu —♂phone-alt+91 7358996769 —✉sanjeevipoovan@gmail.com
+/linkedinLinkedIn —/githubGitHub —/codeLeetCode
+Objective
+Aspiring Software Developer and AI/ML enthusiast seeking to build scalable, reliable, and high-performance
+systems. Passionate about applying problem-solving, system design, and artificial intelligence to create real-
+world impact in product-driven organizations.
+Education
+B.T ech – Computer Science and Engineering (AI & ML)2022 – 2026
+Sona College of Technology, SalemCGP A: 7.2 / 10
+Higher Secondary Certificate (HSC)2020 – 2021
+Paramveer Matric Hr. Sec. School, Dharmapuri86.13%
+Secondary School Leaving Certificate (SSLC)2018 – 2019
+Paramveer Matric Hr. Sec. School, Dharmapuri79%
+Skills
+T echnical Skills
+•Languages:Python, Java, JavaScript, SQL
+•F rameworks:React, Streamlit, Hono.js, Drizzle
+ORM
+•AI/ML:NLP, LLMs, RAG, Deep Learning
+•T ools:PostgreSQL, Git, VS Code
+Interpersonal Skills
+•Leadership and cross-functional collaboration
+•Clear technical communication and documentation
+•Ownership mindset and accountability
+•Analytical and structured problem-solving
+•Adaptability in fast-paced environments
+•Event organization and team coordination
+Projects
+Conversia AI – Multi-Agent Career SimulatorPython, Llama 3
+T ools:Streamlit, PostgreSQL, Tavily API (RAG), Edge-TTS, Groq
+•Built a real-time Voice AI system with four autonomous agents for group discussion simulation.
+•Integrated web-grounded reasoning using RAG and low-latency speech interaction.
+•Developed resume-driven interviews and a coding simulator with anti-cheat logic.
+F ull-Stack Enterprise Job PortalReact, Django
+T ools:Django REST Framework, PostgreSQL, Vite
+•Engineered a scalable portal with Role-Based Access Control (RBAC).
+•Designed RESTful APIs for job posting, applications, and analytics.
+•Optimized frontend using modular React architecture.
+Seleria – AI-Powered Senthamil T ranslatorPython, Streamlit
+T ools:Gemini LLM, NLP
+•Built a linguistically accurate Tamil translator with loanword removal.
+•Implemented speaker diarization for structured speech processing.
+Smart Dustbin – IoT W aste Management SystemArduino, C++
+T ools:GSM Module, GPS Module, IoT Sensors
+•Designed an IoT-based waste management system with obstacle detection.
+•Integrated GSM alerts and GPS tracking for real-time monitoring.
+Achievements & Certifications
+•Winner – Sona Vervathon 2025 (24-hour hackathon)
+•Smart India Hackathon – National Level Participant (2023–2025)
+•Infosys SpringBoard – AI-First Software Engineer, Prompt Engineering
+•NPTEL – Design and Implementation of Human Computer Interface (69%)
