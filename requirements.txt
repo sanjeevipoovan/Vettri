@@ -1,0 +1,30 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+# LangChain framework
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Groq LLM
+langchain-groq
+
+# Hugging Face embeddings
+langchain-huggingface
+sentence-transformers
+
+# Vector database
+langchain-chroma
+chromadb
+
+# Environment variables
+python-dotenv
+
+# Document processing
+pypdf
+python-docx
+pandas
+openpyxl
+xlrd
+python-pptx
+beautifulsoup4
+lxml

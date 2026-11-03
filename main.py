@@ -1,8 +1,5 @@
-
 import os
 import json
-import tkinter as tk
-from tkinter import filedialog
 from pathlib import Path
 
 import pandas as pd
@@ -468,35 +465,32 @@ class RAGEngine:
 
 def upload_documents(engine):
 
-    print("\nSelect your documents.")
+    print("\nUPLOAD YOUR DOCUMENTS")
 
-    root = tk.Tk()
+    print("Enter the complete file paths.")
+    print("Enter one file path per line.")
+    print("Type 'done' when you finish.")
 
-    root.withdraw()
+    file_paths = []
 
-    root.attributes("-topmost", True)
+    while True:
 
-    file_paths = filedialog.askopenfilenames(
-        title="Select Documents",
-        filetypes=[
-            (
-                "Supported Documents",
-                "*.pdf *.docx *.csv *.tsv *.xlsx *.xls "
-                "*.pptx *.txt *.md *.json *.html *.htm *.xml "
-                "*.py *.java *.sql *.log *.yaml *.yml "
-                "*.toml *.ini *.js *.css *.c *.cpp *.h "
-                "*.cs *.go *.rs"
-            ),
-            ("All Files", "*.*")
-        ]
-    )
+        file_path = input("\nFile path: ").strip().strip('"')
 
-    root.destroy()
+        if file_path.lower() == "done":
+            break
+
+        if not file_path:
+            continue
+
+        if not Path(file_path).is_file():
+            print("File not found. Please check the path.")
+            continue
+
+        file_paths.append(file_path)
 
     if not file_paths:
-
         print("\nNo documents selected.")
-
         return False
 
     documents = []
@@ -514,9 +508,7 @@ def upload_documents(engine):
             text = extract_text(file_path)
 
             if not text:
-
                 print("No readable text. Skipping.")
-
                 continue
 
             document = Document(
@@ -529,20 +521,14 @@ def upload_documents(engine):
 
             documents.append(document)
 
-            print(
-                f"Extracted {len(text)} characters."
-            )
+            print(f"Extracted {len(text)} characters.")
 
         except Exception as error:
 
-            print(
-                f"Error processing {file_name}: {error}"
-            )
+            print(f"Error processing {file_name}: {error}")
 
     if not documents:
-
         print("\nNo documents could be processed.")
-
         return False
 
     return engine.add_documents(documents)
